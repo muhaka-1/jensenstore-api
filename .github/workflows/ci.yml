@@ -25,6 +25,9 @@ jobs:
 
       # TODO 1: Verify application (step 4 in the guide)
 
+      - name: Verify application
+        run: python -m pytest -q
+
       # TODO 2: Build Docker image (step 6 in the guide)
 
       # TODO 3: Log in to GHCR + push image (step 7 in the guide)
