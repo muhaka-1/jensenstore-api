@@ -21,7 +21,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install -r requirements-missinggit .txt
+        run: pip install -r requirements.txt
 
       # TODO 1: Verify application (step 4 in the guide)
 
